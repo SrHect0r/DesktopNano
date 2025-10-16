@@ -48,9 +48,10 @@
             label2.AutoSize = true;
             label2.Location = new Point(148, 218);
             label2.Name = "label2";
-            label2.Size = new Size(524, 15);
+            label2.Size = new Size(47, 15);
             label2.TabIndex = 1;
-            label2.Text = "Tienes que instalarte unos paquetes raro, porque no tienenes nada en el \"Cuadro de herramientas\"";
+            label2.Text = "cambio";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
